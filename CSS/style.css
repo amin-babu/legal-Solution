@@ -156,6 +156,12 @@ nav{
 
 .lp_items{
   padding: 50px 60px;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.lp_items:hover{
+  background: linear-gradient(#F3F3F3, white);
 }
 
 .lp_items p{
