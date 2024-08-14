@@ -1,0 +1,81 @@
+@media screen and (max-width:825px) {
+  header{
+    max-width: 96%;
+  }
+
+  nav{
+    padding: 20px 0;
+  }
+
+  .nav_btn{
+    display: none;
+  }
+
+  .banner, .banner_bg{
+    height: 50vh;
+  }
+
+  main{
+    max-width: 96%;
+  }
+
+  .heading{
+    width: 70%;
+  }
+
+  .lp_container{
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .lp1, .lp2, .lp3, .lp4, .lp5, .lp6{
+    border: none;
+  }
+
+  .lp1, .lp3, .lp5{
+    border: 1px solid rgb(192, 192, 192);
+    border-top: none;
+    border-left: none;
+  }
+
+  .lp5{
+    border-bottom: none;
+  }
+
+  .lp2, .lp4{
+    border-bottom: 1px solid rgb(192, 192, 192);
+  }
+
+  .faq{
+    flex-direction: column;
+  }
+
+  .faq_left, .faq_right{
+    width: 100%;
+  }
+
+  .faq_right{
+    justify-content: center;
+  }
+
+  .contact_container{
+    flex-direction: column;
+  }
+
+  .cs_container, .cs_banner_bg{
+    height: 50vh;
+  }
+
+  .contact_left, .contact_right{
+    width: 100%;
+  }
+
+  footer{
+    padding: 70px 2%;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+  }
+
+  .footer-2{
+    justify-self: start;
+  }
+}

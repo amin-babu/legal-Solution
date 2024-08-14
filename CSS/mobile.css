@@ -43,6 +43,10 @@
     width: 120px;
   }
 
+  .nav_btn{
+    display: block;
+  }
+
   .mobile_btn{
     font-size: .8rem;
     padding: 10px 14px;
@@ -55,10 +59,11 @@
 
   .banner_bg{
     height: 230px;
+    opacity: 60%;
   }
 
   .banner_content h1{
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   .banner_content p{
@@ -75,10 +80,12 @@
     width: 200px;
     padding: 11px;
     padding-right: 0;
+    font-size: .6rem;
   }
 
   .banner_mobile_btn{
     padding: 10px;
+    font-size: .7rem;
   }
 
   .lp_container{
