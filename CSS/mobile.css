@@ -1,5 +1,210 @@
-@media screen and (max-width:500px) {
+@media screen and (max-width:530px) {
+  header{
+    max-width: 92%;
+  }
+
+  main{
+    max-width: 92%;
+  }
+
+  section{
+    margin: 50px 0;
+  }
+
+  .heading{
+    width: 90%;
+  }
+
   nav{
+    padding: 20px 0;
+  }
+
+  .nav_menu{
+    /* flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; */
+
+    display: none;
+  }
+
+  .nav_menu li a{
+    font-size: .8rem;
+  }
+
+  .nav_menu li img{
+    width: 15px;
+  }
+
+  .logo img{
+    width: 120px;
+  }
+
+  .mobile_btn{
+    font-size: .8rem;
+    padding: 10px 14px;
+  }
+
+  .banner{
+    height: 230px;
+    background-size: cover;
+  }
+
+  .banner_bg{
+    height: 230px;
+  }
+
+  .banner_content h1{
+    font-size: 2rem;
+  }
+
+  .banner_content p{
+    font-size: .6rem;
+    padding: 0 35px;
+    margin: 15px 0;
+  }
+
+  .banner_content p > br{
+    display: none;
+  }
+
+  .banner_form input[type="search"]{
+    width: 200px;
+    padding: 11px;
+    padding-right: 0;
+  }
+
+  .banner_mobile_btn{
+    padding: 10px;
+  }
+
+  .lp_container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .lp_items{
+    padding: 50px 35px;
+  }
+
+  .lp_items h4{
+    font-size: 1.8rem;
+  }
+
+  .lp1, .lp2, .lp3, .lp4, .lp5, .lp6{
+    border: none;
+  }
+
+  .lp1, .lp2, .lp3, .lp4, .lp5{
+    border: 1px solid rgb(192, 192, 192);
+    border-bottom: none;
+  }
+
+  .lp6{
+    border: 1px solid rgb(192, 192, 192);
+  }
+
+  .lp_items p{
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+
+  .lp_icon2{
+    width: 35px;
+  }
+
+  .cs_container{
+    height: 280px;
+  }
+
+  .cs_content{
+    width: 75%;
+  }
+
+  .cs_banner_bg{
+    height: 280px;
+  }
+
+  #c-description{
+    font-size: .6rem;
+    margin: 15px 0 10px;
+  }
+
+  .cs_btn_left{
+    left: 10px;
+  }
+
+  .cs_btn_right{
+    right: 10px;
+  }
+
+  .cs_btn_left img{
+    width: 20px;
+    height: 20px;
+  }
+
+  .cs_btn_right img{
+    width: 20px;
+    height: 20px;
+  }
+
+  .cs_content img{
+    width: 70px;
+  }
+
+  .cs_content h4{
+    margin: 10px 0 5px;
+  }
+
+  .faq{
     flex-direction: column;
+  }
+
+  .faq_left{
+    width: 100%;
+  }
+
+  .faq_box p{
+    font-size: 1rem;
+  }
+
+  .faq_right{
+    width: 100%;
+  }
+
+  .faq_right img{
+    max-width: 370px;
+  }
+
+  .contact_container{
+    flex-direction: column;
+  }
+
+  .contact_left{
+    width: 100%;
+  }
+
+  .contact_right{
+    width: 100%;
+  }
+
+  .contact_item{
+    padding: 35px 20px;
+  }
+
+  footer{
+    grid-template-columns: 1fr;
+    padding: 30px 4%;
+    gap: 2rem;
+  }
+
+  .footer_item p, li a{
+    font-size: 1.1rem;
+  }
+
+  .f2_child h5, .footer_item h5{
+    margin-bottom: 15px;
+  }
+
+  .footer-2{
+    justify-content: flex-start;
   }
 }
